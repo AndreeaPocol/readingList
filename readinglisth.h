@@ -12,10 +12,10 @@ class ReadingList {
 	}
 	size_t size;
 	size_t capacity;
-	Book *theList;
+	Book *first;
 
 	void doubleMem();
-	void swap(ReadingList &)
+	void swap(ReadingList &);
 
 public:
 	ReadingList();
